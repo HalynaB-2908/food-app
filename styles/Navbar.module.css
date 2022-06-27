@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 80px;
+  padding: 0px 20px;
+  background-color: #FF6584;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+}
+.item:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.item:last-child {
+  justify-content: flex-end;
+}
+
+.text {
+  font-size: 30px;
+  font-style: italic;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.cart {
+  position: relative;
+}
+
+.counter {
+ display: flex;
+ justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: +10px;
+  right: +5px;
+  background: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+}
